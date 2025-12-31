@@ -3,14 +3,15 @@
 <suite name="Suite">
 
 <listeners>
-	<listener class-name="api.utilities.ExtentReportManager"/>
+	<listener class-name="utilities.ExtentReportManager"/>
 </listeners>
 
   <test thread-count="5" name="Test">
     <classes>
-     <!--<class name="api.test.UserTests"/>-->
-      <!--<class name="api.test.UserTests2"/>-->
-     <class name="api.test.DDTests" />
+     <class name="test.UserTests"/>
+     <class name="test.UserTests2"/>
+     <class name="test.DDUserTests"/>
+     <class name="test.StoreTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

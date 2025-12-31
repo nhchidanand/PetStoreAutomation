@@ -88,3 +88,19 @@
 00:49:20.509 [main] INFO  api.test.UserTests2 - **Updating user**
 00:49:25.199 [main] INFO  api.test.UserTests2 - **User is updated**
 00:49:25.202 [main] INFO  api.test.UserTests2 - **Deleting user**
+00:01:13.726 [main] INFO  test.UserTests - **Creating user**
+00:01:17.063 [main] INFO  test.UserTests - **Created user**
+00:01:17.073 [main] INFO  test.UserTests - **Reading user info**
+00:01:19.249 [main] INFO  test.UserTests - **Displaying user info**
+00:01:19.258 [main] INFO  test.UserTests - **Updating user**
+00:01:23.450 [main] INFO  test.UserTests - **User is updated**
+00:01:23.452 [main] INFO  test.UserTests - **Deleting user**
+00:01:25.493 [main] INFO  test.UserTests - **User deleted**
+00:01:25.536 [main] INFO  test.UserTests2 - **Creating user**
+00:01:28.048 [main] INFO  test.UserTests2 - **Created user**
+00:01:28.050 [main] INFO  test.UserTests2 - **Reading user info**
+00:01:30.097 [main] INFO  test.UserTests2 - **Displaying user info**
+00:01:30.109 [main] INFO  test.UserTests2 - **Updating user**
+00:01:34.191 [main] INFO  test.UserTests2 - **User is updated**
+00:01:34.191 [main] INFO  test.UserTests2 - **Deleting user**
+00:01:35.943 [main] INFO  test.UserTests2 - **User deleted**
