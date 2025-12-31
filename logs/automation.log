@@ -104,3 +104,19 @@
 00:01:34.191 [main] INFO  test.UserTests2 - **User is updated**
 00:01:34.191 [main] INFO  test.UserTests2 - **Deleting user**
 00:01:35.943 [main] INFO  test.UserTests2 - **User deleted**
+00:17:14.744 [main] INFO  test.UserTests - **Creating user**
+00:17:19.030 [main] INFO  test.UserTests - **Created user**
+00:17:19.046 [main] INFO  test.UserTests - **Reading user info**
+00:17:21.603 [main] INFO  test.UserTests - **Displaying user info**
+00:17:21.606 [main] INFO  test.UserTests - **Updating user**
+00:17:27.029 [main] INFO  test.UserTests - **User is updated**
+00:17:27.031 [main] INFO  test.UserTests - **Deleting user**
+00:17:30.305 [main] INFO  test.UserTests - **User deleted**
+00:17:30.356 [main] INFO  test.UserTests2 - **Creating user**
+00:17:32.848 [main] INFO  test.UserTests2 - **Created user**
+00:17:32.851 [main] INFO  test.UserTests2 - **Reading user info**
+00:17:35.960 [main] INFO  test.UserTests2 - **Displaying user info**
+00:17:35.962 [main] INFO  test.UserTests2 - **Updating user**
+00:17:41.467 [main] INFO  test.UserTests2 - **User is updated**
+00:17:41.469 [main] INFO  test.UserTests2 - **Deleting user**
+00:17:43.821 [main] INFO  test.UserTests2 - **User deleted**
