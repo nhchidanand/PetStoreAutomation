@@ -7,7 +7,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import payload.Users;
 
-public class UserEndPoints2 {
+public class UserEndPointsPropFile {
 
 	
 	 static ResourceBundle getURL()
@@ -19,7 +19,7 @@ public class UserEndPoints2 {
 	//Created for performing the CRUD (Create, Retrieve, Update, Delete) actions
 	public static Response createUser(Users payload)
 	{
-		String post_url = getURL().getString("post_url");
+		String post_url = getURL().getString("post_user_url");
 		Response response = given()
 			.contentType(ContentType.JSON)
 			.accept(ContentType.JSON)
@@ -32,7 +32,7 @@ public class UserEndPoints2 {
 	
 	public static Response readUser(String userName)
 	{
-		String get_url = getURL().getString("get_url");
+		String get_url = getURL().getString("get_user_url");
 		Response response = given()
 			.pathParam("username", userName)
 		.when()
@@ -43,7 +43,7 @@ public class UserEndPoints2 {
 	
 	public static Response updateUser(String userName, Users payload)
 	{
-		String update_url = getURL().getString("update_url");
+		String update_url = getURL().getString("update_user_url");
 		Response response = given()
 			.contentType(ContentType.JSON)
 			.accept(ContentType.JSON)
@@ -57,7 +57,7 @@ public class UserEndPoints2 {
 	
 	public static Response deleteUser(String userName)
 	{
-		String delete_url = getURL().getString("delete_url");
+		String delete_url = getURL().getString("delete_user_url");
 		Response response = given()
 			.pathParam("username", userName)
 		.when()

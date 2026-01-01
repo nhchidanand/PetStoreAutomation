@@ -8,7 +8,7 @@ import io.restassured.response.Response;
 import payload.Users;
 import utilities.DataProviders;
 
-public class DDUserTests {
+public class TC_003_DDUserTests {
 	
 	
 	@Test(priority=1, dataProvider="Data", dataProviderClass=DataProviders.class)

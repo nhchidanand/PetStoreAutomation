@@ -6,7 +6,7 @@ import com.github.javafaker.Faker;
 import endpoints.StoreEndPoints;
 import io.restassured.response.Response;
 import payload.Stores;
-public class StoreTest {
+public class TC_004_StoreTest {
 	
 	Stores storePaylaod;
 	Faker faker;

@@ -11,7 +11,7 @@ import endpoints.UserEndPoints;
 import io.restassured.response.Response;
 import payload.Users;
 
-public class UserTests {
+public class TC_001_UserTests {
 
 	Faker faker;
 	Users userPayload;

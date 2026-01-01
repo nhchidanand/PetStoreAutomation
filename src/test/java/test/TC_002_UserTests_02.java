@@ -7,11 +7,11 @@ import org.testng.annotations.*;
 
 import com.github.javafaker.Faker;
 
-import endpoints.UserEndPoints2;
+import endpoints.UserEndPointsPropFile;
 import io.restassured.response.Response;
 import payload.Users;
 
-public class UserTests2 {
+public class TC_002_UserTests_02 {
 
 	Faker faker;
 	Users userPayload;
@@ -41,7 +41,7 @@ public class UserTests2 {
 	public void testPostUser()
 	{
 		logger.info("**Creating user**");
-		Response response = UserEndPoints2.createUser(userPayload);
+		Response response = UserEndPointsPropFile.createUser(userPayload);
 		response.then().log().all();
 		Assert.assertEquals(response.getStatusCode(), 200);
 		System.out.println(response.getBody().asString());
@@ -54,7 +54,7 @@ public class UserTests2 {
 	public void testGetUserByName()
 	{
 		logger.info("**Reading user info**");
-		Response response = UserEndPoints2.readUser(this.userPayload.getUsername());
+		Response response = UserEndPointsPropFile.readUser(this.userPayload.getUsername());
 		response.then().log().all();
 		Assert.assertEquals(response.getStatusCode(), 200);
 		logger.info("**Displaying user info**");
@@ -67,11 +67,11 @@ public class UserTests2 {
 	{
 		logger.info("**Updating user**");
 		userPayload.setFirstName(faker.name().firstName());
-		Response response = UserEndPoints2.updateUser(this.userPayload.getUsername(), userPayload);
+		Response response = UserEndPointsPropFile.updateUser(this.userPayload.getUsername(), userPayload);
 		//response.then().log().all();
 		Assert.assertEquals(response.getStatusCode(), 200);
 		
-		Response responseAfterUpdate = UserEndPoints2.readUser(this.userPayload.getUsername());
+		Response responseAfterUpdate = UserEndPointsPropFile.readUser(this.userPayload.getUsername());
 		Assert.assertEquals(responseAfterUpdate.getStatusCode(), 200);
 		logger.info("**User is updated**");
 	}
@@ -82,7 +82,7 @@ public class UserTests2 {
 	public void testDeleteUserByName()
 	{
 		logger.info("**Deleting user**");
-		Response response = UserEndPoints2.deleteUser(this.userPayload.getUsername());
+		Response response = UserEndPointsPropFile.deleteUser(this.userPayload.getUsername());
 		Assert.assertEquals(response.getStatusCode(), 200);
 		logger.info("**User deleted**");
 	}

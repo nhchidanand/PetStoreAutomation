@@ -9,11 +9,12 @@
   <test thread-count="5" name="Test">
     <classes>
     <!--
-     <class name="test.UserTests"/>
-     <class name="test.UserTests2"/>
-     <class name="test.DDUserTests"/>
-    -->
-     <class name="test.StoreTest"/>
+     <class name="test.TC_001_UserTests"/>
+     <class name="test.TC_002_UserTests_02"/>
+     <class name="test.TC_003_DDUserTests"/>
+     <class name="test.TC_004_StoreTest"/>
+         -->
+     <class name="test.TC_005_StoreTest_02"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
