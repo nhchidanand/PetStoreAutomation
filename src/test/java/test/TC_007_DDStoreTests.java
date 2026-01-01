@@ -10,12 +10,10 @@ import payload.Stores;
 
 public class TC_007_DDStoreTests {
 	
-	Stores storePayload;
-	
 	@Test(priority=1, dataProvider="StoreData", dataProviderClass=utilities.DataProviders.class)
 	public void storePostTest(String id, String petId, String qty, String shipDate, String status, String complete)
 	{
-		storePayload= new Stores();
+		Stores storePayload= new Stores();
 		storePayload.setId(Integer.parseInt(id));
 		storePayload.setPetId(Integer.parseInt(petId));
 		storePayload.setQuantity(Integer.parseInt(qty));
