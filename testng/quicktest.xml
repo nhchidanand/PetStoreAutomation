@@ -13,8 +13,11 @@
      <class name="test.TC_002_UserTests_02"/>
      <class name="test.TC_003_DDUserTests"/>
      <class name="test.TC_004_StoreTest"/>
-         -->
      <class name="test.TC_005_StoreTest_02"/>
+     <class name="test.TC_006_StoreTest_passValue"/>
+     <class name="test.TC_007_DDStoreTests"/>
+     -->
+     <class name="test.TC_007_DDStoreTests"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

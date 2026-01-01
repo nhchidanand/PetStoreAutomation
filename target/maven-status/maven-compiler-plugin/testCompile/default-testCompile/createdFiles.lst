@@ -1,8 +1,10 @@
 payload\Stores.class
 test\TC_003_DDUserTests.class
 endpoints\UserEndPointsPropFile.class
+test\TC_007_DDStoreTests.class
 endpoints\UserEndPoints.class
 test\TC_001_UserTests.class
+test\TC_006_StoreTest_passValue.class
 endpoints\StoreEndPointsPropFile.class
 test\TC_002_UserTests_02.class
 utilities\XLUtility.class

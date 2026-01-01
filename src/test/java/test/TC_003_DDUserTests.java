@@ -11,7 +11,7 @@ import utilities.DataProviders;
 public class TC_003_DDUserTests {
 	
 	
-	@Test(priority=1, dataProvider="Data", dataProviderClass=DataProviders.class)
+	@Test(priority=1, dataProvider="Data", dataProviderClass=utilities.DataProviders.class)
 	public void testPostUser(String userID, String userName, String firstName, String lastName, String emailID, String password, String ph)
 	{
 		Users userPayload = new Users();

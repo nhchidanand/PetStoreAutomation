@@ -4,7 +4,9 @@ D:\Work\AutomationTesting\PetStoreAutomation\src\test\java\endpoints\Routes.java
 D:\Work\AutomationTesting\PetStoreAutomation\src\test\java\endpoints\StoreEndPointsPropFile.java
 D:\Work\AutomationTesting\PetStoreAutomation\src\test\java\test\TC_003_DDUserTests.java
 D:\Work\AutomationTesting\PetStoreAutomation\src\test\java\endpoints\UserEndPoints.java
+D:\Work\AutomationTesting\PetStoreAutomation\src\test\java\test\TC_006_StoreTest_passValue.java
 D:\Work\AutomationTesting\PetStoreAutomation\src\test\java\utilities\ExtentReportManager.java
+D:\Work\AutomationTesting\PetStoreAutomation\src\test\java\test\TC_007_DDStoreTests.java
 D:\Work\AutomationTesting\PetStoreAutomation\src\test\java\utilities\XLUtility.java
 D:\Work\AutomationTesting\PetStoreAutomation\src\test\java\payload\Stores.java
 D:\Work\AutomationTesting\PetStoreAutomation\src\test\java\endpoints\UserEndPointsPropFile.java
